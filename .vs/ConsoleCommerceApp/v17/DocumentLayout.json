@@ -1,0 +1,718 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\security\\passwordhasher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\concrete\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\concrete\\sellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\concrete\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\concrete\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\concrete\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\concrete\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\concrete\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\concrete\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\global\\commonusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\global\\commonusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\security\\passwordverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\security\\passwordverifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\entities\\seller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\constants\\connectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\constants\\connectionstrings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\constants\\messages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\extensions\\stringextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\unitofwork\\concrete\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\unitofwork\\concrete\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\unitofwork\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\unitofwork\\abstract\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\concrete\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\concrete\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\concrete\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\concrete\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\base\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\base\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AEE8C8FD-47E5-4EA3-BDD2-515B682C86EA}|Presentation\\Presentation.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AEE8C8FD-47E5-4EA3-BDD2-515B682C86EA}|Presentation\\Presentation.csproj|solutionrelative:presentation\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\constants\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\constants\\options.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9AFC0DBC-2F27-4DE2-979D-19EE3CD30C5E}|Core\\Core.csproj|solutionrelative:core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\abstract\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\abstract\\isellerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\abstract\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\abstract\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\abstract\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\abstract\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\services\\abstract\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\services\\abstract\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\application\\global\\commonusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25B111EC-FDA3-4639-A5B5-887C00544B0B}|Application\\Application.csproj|solutionrelative:application\\global\\commonusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\base\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\base\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\concrete\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\concrete\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\concrete\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\concrete\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\concrete\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\concrete\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\concrete\\sellerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\concrete\\sellerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\abstract\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\abstract\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\migrations\\20240728090015_projectfieldscreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240728090015_projectfieldscreated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\migrations\\20240729161255_productcountandtotalamountadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240729161255_productcountandtotalamountadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\migrations\\20240729162800_totalamountchangeddecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240729162800_totalamountchangeddecimal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\abstract\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\abstract\\iadminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\repository\\abstract\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\repository\\abstract\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\migrations\\20240802164917_adminpasswordadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240802164917_adminpasswordadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|c:\\users\\amin\\source\\repos\\consolecommerceapp\\data\\migrations\\20240802164642_saltedlineadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC000C37-2FAE-4BA6-9B91-09A321F6A4ED}|Data\\Data.csproj|solutionrelative:data\\migrations\\20240802164642_saltedlineadded.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Concrete\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\CustomerService.cs",
+              "RelativeToolTip": "Application\\Services\\Concrete\\CustomerService.cs",
+              "ViewState": "AQIAAJMAAAAAAAAAAAAowBEAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:09:22.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SellerService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\SellerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Concrete\\SellerService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\SellerService.cs",
+              "RelativeToolTip": "Application\\Services\\Concrete\\SellerService.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAgwCAAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:34:55.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PasswordVerifier.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Security\\PasswordVerifier.cs",
+              "RelativeDocumentMoniker": "Core\\Security\\PasswordVerifier.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Security\\PasswordVerifier.cs",
+              "RelativeToolTip": "Core\\Security\\PasswordVerifier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:23:45.291Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CommonUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Global\\CommonUsings.cs",
+              "RelativeDocumentMoniker": "Data\\Global\\CommonUsings.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Global\\CommonUsings.cs",
+              "RelativeToolTip": "Data\\Global\\CommonUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:46:46.345Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\AdminService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Concrete\\AdminService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\AdminService.cs",
+              "RelativeToolTip": "Application\\Services\\Concrete\\AdminService.cs",
+              "ViewState": "AQIAALsBAAAAAAAAAAAmwJoAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:09:16.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\LoginService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Concrete\\LoginService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Concrete\\LoginService.cs",
+              "RelativeToolTip": "Application\\Services\\Concrete\\LoginService.cs",
+              "ViewState": "AQIAAFsAAAAAAAAAAAAkwGQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:09:49.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordHasher.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Security\\PasswordHasher.cs",
+              "RelativeDocumentMoniker": "Core\\Security\\PasswordHasher.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Security\\PasswordHasher.cs",
+              "RelativeToolTip": "Core\\Security\\PasswordHasher.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:23:06.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "20240802164917_AdminPasswordAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240802164917_AdminPasswordAdded.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240802164917_AdminPasswordAdded.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240802164917_AdminPasswordAdded.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240802164917_AdminPasswordAdded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:49:17.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Customer.cs",
+              "RelativeToolTip": "Core\\Entities\\Customer.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:54:42.33Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Contexts\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\Contexts\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Contexts\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\Contexts\\AppDbContext.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA5wAYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:43:46.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20240802164642_SaltedLineAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240802164642_SaltedLineAdded.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240802164642_SaltedLineAdded.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240802164642_SaltedLineAdded.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240802164642_SaltedLineAdded.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T16:46:42.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Admin.cs",
+              "RelativeToolTip": "Core\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:19:41.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Seller.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Seller.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Seller.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Seller.cs",
+              "RelativeToolTip": "Core\\Entities\\Seller.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:36:08.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ConnectionStrings.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Constants\\ConnectionStrings.cs",
+              "RelativeDocumentMoniker": "Core\\Constants\\ConnectionStrings.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Constants\\ConnectionStrings.cs",
+              "RelativeToolTip": "Core\\Constants\\ConnectionStrings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:49:28.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\UnitOfWork\\Concrete\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Data\\UnitOfWork\\Concrete\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\UnitOfWork\\Concrete\\UnitOfWork.cs",
+              "RelativeToolTip": "Data\\UnitOfWork\\Concrete\\UnitOfWork.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADgvycAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T11:47:19.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Messages.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Constants\\Messages.cs",
+              "RelativeDocumentMoniker": "Core\\Constants\\Messages.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Constants\\Messages.cs",
+              "RelativeToolTip": "Core\\Constants\\Messages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABrAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:09:13.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Data\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
+              "RelativeToolTip": "Data\\UnitOfWork\\Abstract\\IUnitOfWork.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T15:31:54.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Category.cs",
+              "RelativeToolTip": "Core\\Entities\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T15:51:42.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "StringExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Extensions\\StringExtensions.cs",
+              "RelativeDocumentMoniker": "Core\\Extensions\\StringExtensions.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Extensions\\StringExtensions.cs",
+              "RelativeToolTip": "Core\\Extensions\\StringExtensions.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwCYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:46:01.39Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Concrete\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\OrderRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Concrete\\OrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:44:11.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Concrete\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\ProductRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Concrete\\ProductRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:33:54.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Order.cs",
+              "RelativeToolTip": "Core\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAIAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:10:54.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Base\\Repository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Base\\Repository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Base\\Repository.cs",
+              "RelativeToolTip": "Data\\Repository\\Base\\Repository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:43:18.329Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Presentation\\Program.cs",
+              "RelativeDocumentMoniker": "Presentation\\Program.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Presentation\\Program.cs",
+              "RelativeToolTip": "Presentation\\Program.cs",
+              "ViewState": "AQIAAGcAAAAAAAAAAAAYwLgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-30T20:08:59.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Options.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Constants\\Options.cs",
+              "RelativeDocumentMoniker": "Core\\Constants\\Options.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Constants\\Options.cs",
+              "RelativeToolTip": "Core\\Constants\\Options.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAQwC8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-02T12:44:15.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Core\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Core\\Entities\\Product.cs",
+              "RelativeToolTip": "Core\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:36:00.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Abstract\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\ICustomerService.cs",
+              "RelativeToolTip": "Application\\Services\\Abstract\\ICustomerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:49:19.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ISellerService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\ISellerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Abstract\\ISellerService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\ISellerService.cs",
+              "RelativeToolTip": "Application\\Services\\Abstract\\ISellerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:39:20.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\ILoginService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Abstract\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\ILoginService.cs",
+              "RelativeToolTip": "Application\\Services\\Abstract\\ILoginService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:49:15.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\IAdminService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\Abstract\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Services\\Abstract\\IAdminService.cs",
+              "RelativeToolTip": "Application\\Services\\Abstract\\IAdminService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T18:33:33.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "CommonUsings.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Global\\CommonUsings.cs",
+              "RelativeDocumentMoniker": "Application\\Global\\CommonUsings.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Application\\Global\\CommonUsings.cs",
+              "RelativeToolTip": "Application\\Global\\CommonUsings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:48:23.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Base\\IRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Base\\IRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Base\\IRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Base\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:43:08.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Concrete\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\AdminRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Concrete\\AdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:47:31.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Concrete\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\CategoryRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Concrete\\CategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:47:26.362Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "SellerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\SellerRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Concrete\\SellerRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\SellerRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Concrete\\SellerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T14:47:06.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Concrete\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Concrete\\CustomerRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Concrete\\CustomerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:42:38.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Abstract\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Abstract\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Abstract\\IOrderRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Abstract\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:42:47.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20240729161255_ProductCountAndTotalAmountAdded.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240729161255_ProductCountAndTotalAmountAdded.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240729161255_ProductCountAndTotalAmountAdded.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240729161255_ProductCountAndTotalAmountAdded.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240729161255_ProductCountAndTotalAmountAdded.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:48:12.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "20240728090015_ProjectFieldsCreated.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240728090015_ProjectFieldsCreated.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240728090015_ProjectFieldsCreated.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240728090015_ProjectFieldsCreated.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240728090015_ProjectFieldsCreated.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:48:25.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20240729162800_TotalAmountChangedDecimal.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240729162800_TotalAmountChangedDecimal.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\20240729162800_TotalAmountChangedDecimal.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\20240729162800_TotalAmountChangedDecimal.cs",
+              "RelativeToolTip": "Data\\Migrations\\20240729162800_TotalAmountChangedDecimal.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:48:08.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "AppDbContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "RelativeToolTip": "Data\\Migrations\\AppDbContextModelSnapshot.cs",
+              "ViewState": "AQIAAKoAAAAAAAAAAAAAwL0AAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T15:47:39.113Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Abstract\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Abstract\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Abstract\\ICategoryRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Abstract\\ICategoryRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:43:28.844Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IAdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Abstract\\IAdminRepository.cs",
+              "RelativeDocumentMoniker": "Data\\Repository\\Abstract\\IAdminRepository.cs",
+              "ToolTip": "C:\\Users\\Amin\\source\\repos\\ConsoleCommerceApp\\Data\\Repository\\Abstract\\IAdminRepository.cs",
+              "RelativeToolTip": "Data\\Repository\\Abstract\\IAdminRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-31T14:43:26.325Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
