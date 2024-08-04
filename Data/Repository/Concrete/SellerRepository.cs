@@ -1,4 +1,6 @@
-﻿namespace Data.Repository.Concrete;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Data.Repository.Concrete;
 
 public class SellerRepository : Repository<Seller>, ISellerRepository
 {
@@ -9,8 +11,7 @@ public class SellerRepository : Repository<Seller>, ISellerRepository
         _context = context;
     }
 
-    public Seller GetSellerByEmail(string email)
-    {
-        return _context.Sellers.FirstOrDefault(s => s.Email == email);
-    }
+    public Seller GetSellerByEmail(string email) => _context.Sellers.FirstOrDefault(s => s.Email == email);
+    
+
 }

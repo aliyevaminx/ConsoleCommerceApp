@@ -7,9 +7,9 @@ public class AdminService : IAdminService
 {
     private readonly UnitOfWork _unitOfWork;
 
-    public AdminService()
+    public AdminService(UnitOfWork unitofWork)
     {
-        _unitOfWork = new UnitOfWork();
+        _unitOfWork = unitofWork;
     }
 
     public void ShowAllCustomers()
@@ -187,7 +187,7 @@ public class AdminService : IAdminService
 
         Category category = new Category
         {
-            Name = categoryName
+            Name = categoryName               
         };
 
         _unitOfWork.Categories.Add(category);

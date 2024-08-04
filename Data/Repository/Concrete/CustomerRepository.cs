@@ -1,4 +1,6 @@
-﻿namespace Data.Repository.Concrete;
+﻿using Microsoft.EntityFrameworkCore;
+
+namespace Data.Repository.Concrete;
 
 public class CustomerRepository : Repository<Customer>, ICustomerRepository
 {
@@ -9,8 +11,5 @@ public class CustomerRepository : Repository<Customer>, ICustomerRepository
         _context = context;
     }
 
-    public Customer GetCustomerByEmail(string email)
-    {
-        return _context.Customers.FirstOrDefault(c => c.Email == email);
-    }
+    public Customer GetCustomerByEmail(string email) => _context.Customers.FirstOrDefault(c => c.Email == email);
 }

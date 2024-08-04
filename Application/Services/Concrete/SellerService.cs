@@ -7,30 +7,35 @@ public class SellerService : ISellerService
 {
     private readonly UnitOfWork _unitOfWork;
 
-    public SellerService()
+    public SellerService(UnitOfWork unitOfWork)
     {
-        _unitOfWork = new UnitOfWork();
+        _unitOfWork = unitOfWork;
     }
 
     public void ShowSoldProducts(Seller seller)
     {
-        if (seller.Orders.Any())
+        var orders = _unitOfWork.Orders.GetAllOrdersBySeller(seller.Id);
+
+        if (_unitOfWork.Orders.GetCountOfOrders(orders) <= 0)
         {
             Messages.NotFoundMessage("Products");
             return;
         }
 
-        foreach (var order in seller.Orders)
+        foreach (var order in orders)
         {
             var customer = _unitOfWork.Customers.Get(order.CustomerId);
+            var product = order.Product;
 
-            Console.WriteLine($"Product: {order.Product.Name} Price: {order.Product.Price} Count: {order.productCount} " +
-            $"Total: {order.totalAmount} Customer: {customer.Name} {customer.Surname}");
+            Console.WriteLine($"Product: {product.Name} Price: {product.Price} Count: {order.productCount} " +
+                $"Total: {order.totalAmount} Customer: {customer.Name} {customer.Surname}");
         }
     }
     public void ShowSoldProductsByDate(Seller seller)
     {
-        if (seller.Orders.Any())
+        var orders = _unitOfWork.Orders.GetAllOrdersBySeller(seller.Id);
+
+        if (_unitOfWork.Orders.GetCountOfOrders(orders) <= 0)
         {
             Messages.NotFoundMessage("Products");
             return;
@@ -49,7 +54,7 @@ public class SellerService : ISellerService
 
         bool existProduct = false;
 
-        foreach (var order in seller.Orders)
+        foreach (var order in orders)
         {
             if (orderDate.ToString("dd.MM.yyyy") == order.OrderTime.ToString("dd.MM.yyyy"))
             {
@@ -65,9 +70,10 @@ public class SellerService : ISellerService
     }
     public void ShowIncome(Seller seller)
     {
+        var orders = _unitOfWork.Orders.GetAllOrdersBySeller(seller.Id);
         decimal totalIncome = 0;
 
-        foreach (var order in seller.Orders)
+        foreach (var order in orders)
             totalIncome += order.totalAmount;
 
         Console.WriteLine($"Total Income: {totalIncome}");
@@ -141,6 +147,15 @@ public class SellerService : ISellerService
             goto EnterCategeryIdLine;
         }
 
+        var existedCategory = _unitOfWork.Categories.Get(categeryId);
+
+        if (existedCategory is null)
+        {
+            Messages.NotFoundMessage("Category");
+            return;
+        }
+
+
         Product product = new Product
         {
             Name = productName,
@@ -155,21 +170,30 @@ public class SellerService : ISellerService
     }
     public void ChangeCountOfProduct(Seller seller)
     {
-        foreach (var product in seller.Products)
+        var products = _unitOfWork.Products.GetAllProductsBySeller(seller.Id);
+
+        foreach (var product in products)
             Console.WriteLine($"Id: {product.Id} Name: {product.Name} Count: {product.Count}");
 
         EnterProductIdLine: Messages.InputMessage("product ID");
-        string productIdInput = Console.ReadLine();
+        string productIdInput = Console.ReadLine(); 
         int productId;
         bool isTrueFormat = int.TryParse(productIdInput, out productId);
 
         var existProduct = _unitOfWork.Products.Get(productId);
 
-        if (!isTrueFormat || existProduct is null)
+        if (!isTrueFormat)
         {
             Messages.InvalidInputMessage("Product ID");
             goto EnterProductIdLine;
         }
+
+        if (existProduct is null)
+        {
+            Messages.NotFoundMessage("Product");
+            return;
+        }
+
         int newCount = existProduct.Count;
     EnterNewCountLine: Messages.InputMessage("new count");
         string newCountInput = Console.ReadLine();
@@ -187,7 +211,9 @@ public class SellerService : ISellerService
     }
     public void DeleteProduct(Seller seller)
     {
-        foreach (var product in seller.Products)
+        var products = _unitOfWork.Products.GetAllProductsBySeller(seller.Id);
+
+        foreach (var product in products)
             Console.WriteLine($"Id: {product.Id} Name: {product.Name} Count: {product.Count}");
 
         EnterProductIdLine: Messages.InputMessage("product ID");
@@ -197,10 +223,16 @@ public class SellerService : ISellerService
 
         var existProduct = _unitOfWork.Products.Get(productId);
 
-        if (!isTrueFormat || existProduct is null)
+        if (!isTrueFormat)
         {
             Messages.InvalidInputMessage("product ID");
             goto EnterProductIdLine;
+        }
+
+        if (existProduct is null)
+        {
+            Messages.NotFoundMessage("Product");
+            return;
         }
 
         _unitOfWork.Products.Delete(existProduct);

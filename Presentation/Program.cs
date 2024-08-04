@@ -1,8 +1,10 @@
 ﻿using Application.Services.Concrete;
 using Core.Constants;
+using Data.UnitOfWork.Concrete;
 
 public static class Program
 {
+    private static readonly UnitOfWork _unitOfWork;
     private static readonly AdminService _adminService;
     private static readonly CustomerService _customerService;
     private static readonly SellerService _sellerService;
@@ -10,10 +12,11 @@ public static class Program
 
     static Program()
     {
-        _adminService = new AdminService();
-        _customerService = new CustomerService();
-        _sellerService = new SellerService();
-        _loginService = new LoginService();
+        _unitOfWork = new UnitOfWork();
+        _adminService = new AdminService(_unitOfWork);
+        _customerService = new CustomerService(_unitOfWork);
+        _sellerService = new SellerService(_unitOfWork);
+        _loginService = new LoginService(_unitOfWork);
     }
 
     public static void Main(string[] args)

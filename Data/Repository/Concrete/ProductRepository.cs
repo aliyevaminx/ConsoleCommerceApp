@@ -18,4 +18,7 @@ public class ProductRepository : Repository<Product>, IProductRepository
     {
         return _context.Products.Where(p => p.Name.ToLower().Contains(substring.ToLower())).ToList();
     }
+
+    public List<Product> GetAllProductsBySeller(int id) => _context.Products.Where(p => p.SellerId == id).ToList();
+    
 }

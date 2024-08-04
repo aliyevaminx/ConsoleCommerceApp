@@ -1,5 +1,4 @@
-﻿using Core.Entities;
-using System.Globalization;
+﻿using System.Globalization;
 
 namespace Application.Services.Concrete;
 
@@ -8,30 +7,35 @@ public class CustomerService : ICustomerService
 
     private readonly UnitOfWork _unitOfWork;
 
-    public CustomerService()
+    public CustomerService(UnitOfWork unitOfWork)
     {
-        _unitOfWork = new UnitOfWork();
+        _unitOfWork = unitOfWork;
     }
 
     public void ShowPurchasedProducts(Customer customer)
     {
-        if (customer.Orders.Count == 0)
+        var orders = _unitOfWork.Orders.GetAllOrdersByCustomer(customer.Id);
+
+        if (_unitOfWork.Orders.GetCountOfOrders(orders) <= 0)
         {
             Messages.NotFoundMessage("Products");
             return;
         }
 
-        foreach (var order in customer.Orders)
+        foreach (var order in orders)
         {
             var seller = _unitOfWork.Sellers.Get(order.SellerId);
+            var product = order.Product;
 
-            Console.WriteLine($"Product: {order.Product.Name} Price: {order.Product.Price} Count: {order.productCount} " +
+            Console.WriteLine($"Product: {product.Name} Price: {product.Price} Count: {order.productCount} " +
             $"Total: {order.totalAmount} Seller: {seller.Name} {seller.Surname}");
         }
     }
     public void ShowPurchasedProductsByDate(Customer customer)
     {
-        if (customer.Orders.Any())
+        var orders = _unitOfWork.Orders.GetAllOrdersByCustomer(customer.Id);
+
+        if (_unitOfWork.Orders.GetCountOfOrders(orders) <= 0)
         {
             Messages.NotFoundMessage("Products");
             return;
@@ -50,7 +54,7 @@ public class CustomerService : ICustomerService
 
         bool existProduct = false;
 
-        foreach (var order in customer.Orders)
+        foreach (var order in orders)
         {
             if (orderDate.ToString("dd.MM.yyyy") == order.OrderTime.ToString("dd.MM.yyyy"))
             {
@@ -84,30 +88,33 @@ public class CustomerService : ICustomerService
         }
 
         foreach (var product in existProductList)
-            Console.WriteLine($"Name {product.Name} Price: {product.Price} Count: {product.Count}");
+            Console.WriteLine($" Id: {product.Id} Name {product.Name} Price: {product.Price} Count: {product.Count}");
     }
     public void BuyProduct(Customer customer)
     {
-    EnterProductNameLine: Messages.InputMessage("product name to buy");
-        string product = Console.ReadLine();
-        if (string.IsNullOrWhiteSpace(product))
+    EnterProductNameLine: Messages.InputMessage("product ID to buy");
+        string productInput = Console.ReadLine();
+        int product;
+        bool isTrueFormat = int.TryParse(productInput, out product);
+
+        if (!isTrueFormat)
         {
             Messages.InvalidInputMessage("product name");
             goto EnterProductNameLine;
         }
 
-        var existProduct = _unitOfWork.Products.GetByName(product);
+        var existProduct = _unitOfWork.Products.Get(product);
 
         if (existProduct is null)
         {
-            Messages.NotFoundMessage(product);
+            Messages.NotFoundMessage("Product");
             return;
         }
 
         Messages.InputMessage("count");
         string productCountInput = Console.ReadLine();
         int productCount;
-        bool isTrueFormat = int.TryParse(productCountInput, out productCount);
+        isTrueFormat = int.TryParse(productCountInput, out productCount);
 
         if (!isTrueFormat)
         {
@@ -117,7 +124,7 @@ public class CustomerService : ICustomerService
 
         if (productCount > existProduct.Count)
         {
-            Messages.NotFoundMessage(product);
+            Messages.NotEnoughMessage("product");
             goto EnterProductNameLine;
         }
 
@@ -148,13 +155,9 @@ public class CustomerService : ICustomerService
                 };
 
                 _unitOfWork.Orders.Add(order);
+                _unitOfWork.Products.Update(existProduct);
 
-                if (newCountOfProduct == 0)
-                    _unitOfWork.Products.Delete(existProduct);
-                else
-                    _unitOfWork.Products.Update(existProduct);
-
-                _unitOfWork.Commit(product, "purchased");
+                _unitOfWork.Commit("Product", "purchased");
             }
             else
                 return;

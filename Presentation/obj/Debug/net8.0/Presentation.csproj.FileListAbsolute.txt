@@ -135,3 +135,4 @@ C:\Users\Amin\source\repos\ConsoleCommerceApp\Presentation\bin\Debug\net8.0\Appl
 C:\Users\Amin\source\repos\ConsoleCommerceApp\Presentation\bin\Debug\net8.0\Core.pdb
 C:\Users\Amin\source\repos\ConsoleCommerceApp\Presentation\bin\Debug\net8.0\Data.pdb
 C:\Users\Amin\source\repos\ConsoleCommerceApp\Presentation\obj\Debug\net8.0\Presentation.csproj.AssemblyReference.cache
+C:\Users\Amin\source\repos\ConsoleCommerceApp\Presentation\obj\Debug\net8.0\Presentation.sourcelink.json

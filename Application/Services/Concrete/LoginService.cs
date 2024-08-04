@@ -6,9 +6,9 @@ public class LoginService : ILoginService
 {
     private readonly UnitOfWork _unitOfWork;
 
-    public LoginService()
+    public LoginService(UnitOfWork unitOfWork)
     {
-        _unitOfWork = new UnitOfWork();
+        _unitOfWork = unitOfWork;
     }
 
     public Admin IsAdminLoggedIn()
@@ -60,13 +60,18 @@ public class LoginService : ILoginService
             goto EnterPasswordLine;
         }
 
+       
         var existedCustomer = _unitOfWork.Customers.GetCustomerByEmail(email);
-        bool isPasswordMatch = PasswordVerifier.VerifyPassword(password, existedCustomer.Password, existedCustomer.Salt);
+        bool isPasswordMatch;
 
-        if (existedCustomer is not null && isPasswordMatch)
+        if (existedCustomer is not null)
         {
-            Messages.SuccessLoginMessage();
-            return existedCustomer;
+            if (PasswordVerifier.VerifyPassword(password, existedCustomer.Password, existedCustomer.Salt))
+            {
+                Messages.SuccessLoginMessage();
+                return existedCustomer;
+            }
+            return null;
         }
         return null;
 
@@ -92,13 +97,19 @@ public class LoginService : ILoginService
         }
 
         var existedSeller = _unitOfWork.Sellers.GetSellerByEmail(email);
-        bool isPasswordMatch = PasswordVerifier.VerifyPassword(password, existedSeller.Password, existedSeller.Salt);
+        bool isPasswordMatch;
 
-        if (existedSeller is not null && isPasswordMatch)
+        if (existedSeller is not null)
         {
-            Messages.SuccessLoginMessage();
-            return existedSeller;
+            if (PasswordVerifier.VerifyPassword(password, existedSeller.Password, existedSeller.Salt))
+            {
+                Messages.SuccessLoginMessage();
+                return existedSeller;
+            }
+            return null;
         }
         return null;
     }
+
+
 }
