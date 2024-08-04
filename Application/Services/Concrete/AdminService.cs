@@ -230,7 +230,7 @@ public class AdminService : IAdminService
             goto EnterCustomerEmailLine;
         }
 
-    EnterCustomerPhoneNumberLine: Messages.InputMessage("phone number (+994XXXXXXXXX)");
+    EnterCustomerPhoneNumberLine: Messages.InputMessage("phone number");
         string phoneNumber = Console.ReadLine();
 
         if (string.IsNullOrWhiteSpace(phoneNumber))
@@ -317,7 +317,7 @@ public class AdminService : IAdminService
             goto EnterSellerEmailLine;
         }
 
-    EnterSellerPhoneNumberLine: Messages.InputMessage("phone number (+994XXXXXXXXX)");
+    EnterSellerPhoneNumberLine: Messages.InputMessage("phone number");
         string phoneNumber = Console.ReadLine();
 
         if (string.IsNullOrWhiteSpace(phoneNumber))

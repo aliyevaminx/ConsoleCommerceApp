@@ -3,8 +3,8 @@
 public class Order : BaseEntity
 {
     public DateTime OrderTime { get; set; }
-    public int productCount { get; set; }
-    public decimal totalAmount { get; set; }
+    public int ProductCount { get; set; }
+    public decimal TotalAmount { get; set; }
     public int SellerId { get; set; }
     public Seller Seller { get; set; }
     public int CustomerId { get; set; }

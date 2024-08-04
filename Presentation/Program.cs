@@ -31,7 +31,7 @@ public static class Program
         {
             if (option == 0)
             {
-            LoggedInLine: var loggedIn = _loginService.IsAdminLoggedIn();
+                var loggedIn = _loginService.IsAdminLoggedIn();
 
                 if (loggedIn is not null)
                 {
@@ -97,12 +97,12 @@ public static class Program
                 else
                 {
                     Messages.WrongInputMessage();
-                    goto LoggedInLine;
+                    goto LoginMenuLine;
                 }
             }
             else if (option == 1)
             {
-            LoggedInLine: var loggedIn = _loginService.IsCustomerLoggedIn();
+                var loggedIn = _loginService.IsCustomerLoggedIn();
 
                 if (loggedIn is not null)
                 {
@@ -143,13 +143,13 @@ public static class Program
                 else
                 {
                     Messages.WrongInputMessage();
-                    goto LoggedInLine;
+                    goto LoginMenuLine;
                 }
 
             }
             else if (option == 2)
             {
-            LoggedInLine: var loggedIn = _loginService.IsSellerLoggedIn();
+                var loggedIn = _loginService.IsSellerLoggedIn();
 
                 if (loggedIn is not null)
                 {
@@ -196,7 +196,7 @@ public static class Program
                 else
                 {
                     Messages.WrongInputMessage();
-                    goto LoggedInLine;
+                    goto LoginMenuLine;
                 }
             }
             else
